@@ -1,0 +1,15 @@
+.homepage-wrapper{
+    color: white;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.recent-collection{
+    display: flex;
+    width: 80%;
+    height: min-content;
+}
+
+.recent-collection > * {
+    transition: all ease 0.3s ease;
+}

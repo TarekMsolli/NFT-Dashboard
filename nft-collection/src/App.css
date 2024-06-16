@@ -1,0 +1,22 @@
+* {
+  --col1 : #1c1822;
+  --col2 : #4f485a;
+}
+
+body {
+  background-color: var(--col2);
+  display: flex;
+  justify-content: center;
+}
+
+.app-wrapper {
+  background-color: var(--col1);
+  width: 90vw;
+  height: fit-content;
+  margin-top: 5vh;
+  border-radius: 30px;
+  filter: drop-shadow(0px 15px 15px rgba(0,0,0,0.6));
+  display: flex;
+  overflow: hidden;
+  min-width: 400px;
+}

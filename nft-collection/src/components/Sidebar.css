@@ -1,0 +1,94 @@
+
+.sidebar {
+  height: 100%;
+  width: 100px;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 60%;
+  margin-bottom: 5%;
+}
+
+.icon-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50% 0;
+}
+
+.link-wrapper { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icon-wrapper {
+  width: 100%;
+  padding: 30%;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color 0.3s, color 0.3s;
+  color: var(--col2);
+}
+
+.icon-wrapper.selected {
+  background-color: white;
+  color: var(--col1);
+}
+
+.link-wrapper:hover  {
+  transform: scale(1.2);
+  
+}
+
+.icon {
+  color: inherit;
+}
+
+.bottom-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.bottom-icons .icon-wrapper {
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+.bottom-icons .icon-wrapper .icon {
+  width: 100%;
+  height: auto;
+}
+
+.profile-pic-wrapper {
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.profile-pic {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: border 0.3s ease;
+}
